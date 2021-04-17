@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <!-- floating button -->
+
+    <div class="btn-rond-menu">
+        <div class="cont-ligne">
+            <div class="ligne-unique"></div>
+        </div>
+    </div>
+    
+    <!-- vertical navigation bar -->
+
+    <nav class="nav-gauche">
+        
+        <div class="blocs-menu">
+            <div class="cercle-portrait">
+                <img class="portrait" src="ressources/boss.svg" alt="portrait img">
+            </div>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#accueil">
+                    Acceuil
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#pres">
+                    Présentation
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#port">
+                    Portfolio
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#range">
+                    Compétences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#exp">
+                    Expériences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#contact">
+                    Contact
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <div class="logo-cercle">
+                <a href="#contact">
+                    <img src="ressources/contact.svg" alt="logo contact">
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Section Acceuil -->
+
+    <section class="accueil" id="acceuil">
+        <h1> Bienvenue sur mon Portfolio</h1>
+        <p class="txt-animation"></p>
+        <a href="#port" class="btn-acc btn-acc1">Portfolio</a>
+        <a href="#" class="btn-acc btn-acc2">Expériences</a>
+
+        <div class="medias">
+            <a href="https://linkedin.com" target="blank">
+                <div class="media media2">
+                    <img src="ressources/linkedin.svg" alt="linkedin icone" class="icone-medias">
+                </div>
+            </a>
+        </div>
+
+        <a href="#pres">
+            <div class="btn-rond">
+                <img src="ressources/arrowDown.svg" alt="logo fleche bas" class="logo-btn-rond-acc">
+            </div>
+        </a>
+
+    </section>
+
+    <!-- Section Présentation -->
+
+    <section class="presentation" id="pres">
+        <h2 class="titre-pres">Présentation</h2>
+
+        <div class="container-presentation">
+            <div class="fond-forme"></div>
+
+            <div class="pres-gauche">
+                <h3>Quibusdam aliquam nihil iusto, facilis illum quas.</h3>
+                <hr>
+                <p>Passionné depuis très jeune par l'informatique, j'ai d'abord commencé par développer des modes pour Minecraft. J'ai ensuite obtenu après mon bac un DUT en Génie électrique et informatique industrielle, que j'ai ensuite complété avec un DUT en informatique. </p>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque temporibus veritatis et unde dolore tenetur.
+                </p>
+            </div>
+
+            <div class="pres-droite">
+                <ul class="liste-presentation">
+                    <li class="item-liste i1">
+                        <span class="material-icons md-24">place</span>
+                        <p class="txt-liste">Montpellier</p>
+                    </li>
+                    <li class="item-liste i2">
+                        <span class="material-icons md-24">smartphone</span>
+                        <p class="txt-liste">07 81 49 97 88</p>
+                    </li>
+                    <li class="item-liste i3">
+                        <span class="material-icons md-24">email</span>
+                        <p class="txt-liste">jules.viot2@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Portfolio -->
+    <section class="portfolio" id="port">
+        <h2 class="titre-port">Mon Portfolio</h2>
+
+        <div class="cont-portfolio">
+            <div class="item vague1">
+                <div class="cont-img-port">
+                    <img src="ressources/cachan_img.jpeg" alt="img portfolio">
+                </div>
+                <h3> Robot - Tournoi robotique cachan</h3>
+                <h4>Description:</h4>
+                <p>Développement et réalisation d'un robot pour les championnats de france de robotique GEII(Génie Electrique et Informatique Industrielle)<br>Durée ≈ 1an</p>
+                <h4>Notions travaillé:</h4>
+                <ul>
+                    <li>Gestion de projet et travaille en équipe (7 personnes sur le projet). Utilisation d'outils de gestion (diagramme de Gantt,trello...)</li>
+                    <li>Conception du robot et mise en place d'un schéma fonctionnelle d'un robot</li>
+                    <li>Routage de PCB(Printed Circuit Board). Outil: Eagle</li>
+                    <li>Programmation de l'inteligence et du déplacement d'un système temps réel</li>
+                    <li>Communication sur bus I2C entre les cartes électroniques</li>
+                </ul>
+                <a href="#" class="btn-projets" id="btn-cachan">Découvrez le projet</a>
+            </div>
+        
+            <div class="item vague2">
+                <div class="cont-img-port">
+                    <img src="ressources/console.jpg" alt="img portfolio">
+                </div>
+                <h3>Création et programmation d'un verin électrique</h3>
+                <p></p>
+                <a href="#" class="btn-projets">Découvrez le projet</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Modals -->
+    <!-- <div class="bg-modal">
+        <div class="modal-content">
+
+        </div>
+    </div> -->
+
+    <!-- Section Range -->
+
+    <section class="section-range" id="range">
+        <h2 class="titre-exp">Mes compétences</h2>
+        <div class="grille-skill">
+            <div class="range-cont">
+                <p class="label-skill">Java</p>
+                <p class="number-skill">75%</p>
+                <div class="barre-skill b1"></div>
+                <div class="barre-grises"></div>
+            </div>
+
+            <div class="range-cont">
+                <p class="label-skill">Python</p>
+                <p class="number-skill">65%</p>
+                <div class="barre-skill b2"></div>
+                <div class="barre-grises"></div>
+            </div>
+
+            <div class="range-cont">
+                <p class="label-skill">C++</p>
+                <p class="number-skill">55%</p>
+                <div class="barre-skill b3"></div>
+                <div class="barre-grises"></div>
+            </div>
+
+            <div class="range-cont">
+                <p class="label-skill">SQL</p>
+                <p class="number-skill">65%</p>
+                <div class="barre-skill b4"></div>
+                <div class="barre-grises"></div>
+            </div>
+
+            <div class="range-cont">
+                <p class="label-skill">Technologies Web</p>
+                <p class="number-skill">HTML / CSS / Java Script - 70%</p>
+                <div class="barre-skill b5"></div>
+                <div class="barre-grises"></div>
+            </div>
+
+            <div class="range-cont">
+                <p class="label-skill">Informatique Industrielle</p>
+                <p class="number-skill">Grafcet / VHDL / Quartus - 60%</p>
+                <div class="barre-skill b6"></div>
+                <div class="barre-grises"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+
+    <section class="travail-exp" id="exp">
+        <h2 class="titre-travail-exp">Ma formation</h2>
+
+        <div class="cont-exp-travail">
+            <div class="barre-verticale">
+                <div class="boule-ico">
+                    <img src="ressources/coding.svg" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="ressources/robot.png" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="ressources/scientifique.png" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="ressources/plane.svg" class="avion" alt="icone gauche">
+                </div>
+            </div>
+
+            <div class="flex-cont-bloc-exp">
+                <div class="bloc bloc1">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">DUT Informatique, IUT Montpellier - 2020/2021</p>
+                        <p class="txt-section">
+                            Développement Java<br>
+                            Base de données<br>
+                            Génie Logiciel
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bloc bloc2">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">DUT GEII (Génie Electrique et Informatique Industrielle) <br>IUT de Montpellier - 2018/2019</p>
+                        <p class="txt-section">Classement:<br>
+                            • Semestre 1: 36/120<br>
+                            • Semestre 2: 43/120
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bloc bloc3">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Baccalauréat scientifique <br>Lycée Jean Jaurès Saint Clément de Rivière - 2016/2018</p>
+                        <p class="txt-section">
+                            Mention: Assez Bien <br>
+                            Spécialité: SVT <br>
+                            Option: ISN (Informatique et Science du numérique)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Section -->
+
+        <section class="travail-exp" id="exp">
+            <h2 class="titre-travail-exp">Mes expériences</h2>
+    
+            <div class="cont-exp-travail">
+                <div class="barre-verticale">
+                    <div class="boule-ico">
+                        <img src="ressources/google.svg" alt="icone gauche">
+                    </div>
+                    <div class="boule-ico">
+                        <img src="ressources/instagram.svg" alt="icone gauche">
+                    </div>
+                    <div class="boule-ico">
+                        <img src="ressources/electronique.png" alt="icone gauche">
+                    </div>
+                    <div class="boule-ico">
+                        <img src="ressources/plane.svg" class="avion" alt="icone gauche">
+                    </div>
+                </div>
+    
+                <div class="flex-cont-bloc-exp">
+                    <div class="bloc bloc4">
+                        <div class="contenu-bloc">
+                            <p class="titre-section-bloc">Stage Frontend ReactJS<br>Moostack - 2021 (2 mois)</p>
+                            <p class="txt-section">Mise en place d’infrastructure, développement de site web, application mobile, utilisation des librairies, React, Angular, Laravel, Docker, Gitlab CI</p>
+                        </div>
+                    </div>
+    
+                    <div class="bloc bloc5">
+                        <div class="contenu-bloc">
+                            <p class="titre-section-bloc">Stage Inter-Subsystem Communication Test Bench<br>Centre Spatial Universitaire de Montpellier - 2020 (3 mois)</p>
+                            <p class="txt-section">Développement d'un script Python (avec GUI) permettant aux utilisateurs de simuler les sous-parties d'un CubeSat 3U en envoyant ou réceptionnant des commandes / messages sur le bus CAN</p>
+                        </div>
+                    </div>
+    
+                    <div class="bloc bloc6">
+                        <div class="contenu-bloc">
+                            <p class="titre-section-bloc">Stage LIRMM (Laboratoire d’informatique, de Robotique et de Microélectronique de Montpellier) - 2016</p>
+                            <p class="txt-section">Stage d'observation: <br>
+                                - Robotique sous-marine <br>
+                                - Rencontre avec les doctorants
+    
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Section parallax -->
+    <section>
+        <div class="section-parallax">
+            <p class="txt-par">
+                
+            </p>
+            <p class="txt-par">
+                
+            </p>
+            <p class="txt-par">
+                
+            </p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="section-contact" id="contact">
+        <h2><strong>Rentrons</strong> en Contact</h2>
+        <div class="container-form">
+            <form class="form-bloc">
+                <div class="form-groupe">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" required maxlength="16" id="prenom">
+                </div>
+                <div class="form-groupe">
+                    <label for="nom">Nom</label>
+                    <input type="text" required maxlength="16" id="nom">
+                </div>
+                <div class="form-groupe">
+                    <textarea id="txt" placeholder="Votre message" required></textarea>
+                </div>
+                <div class="form-groupe">
+                    <input type="submit" value="ENVOYER" class="button-sub">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        Tout Droits réservés &copy;
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
