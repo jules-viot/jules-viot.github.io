@@ -184,5 +184,3 @@ const scene5 = new ScrollMagic.Scene({
 .addTo(controller)
 
 
-// Modals
-document.getElementById()
